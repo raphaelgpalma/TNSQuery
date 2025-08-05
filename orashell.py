@@ -36,7 +36,10 @@ try:
 
     # Interactive shell loop
     while True:
+        # Read user input and remove the trailing semicolon if it exists
         query = input("SQL> ").strip()
+        if query.endswith(';'):
+            query = query[:-1]
         
         if query.lower() == 'exit':
             break

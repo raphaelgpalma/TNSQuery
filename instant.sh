@@ -84,4 +84,4 @@ fi
 # Final instructions
 echo "[✔] Setup complete!"
 echo "Run 'source ~/.bashrc' to apply LD_LIBRARY_PATH or restart your terminal."
-echo "You can now use OraShell: python3 orashell.py"
+echo "You can now use TNSQuery: python3 tnsquery.py"

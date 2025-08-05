@@ -18,13 +18,13 @@ OraShell is a Python-based command-line tool designed for interacting with Oracl
 
 ## Installation
 
-### Step 1: Clone the Repository
+#### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/raphaelgpalma/OraShell.git
 cd OraShell
 ```
 
-Step 2: Install Python Dependencies
+#### Step 2: Install Python Dependencies
 
 Install the required Python library (cx_Oracle):
 
@@ -32,7 +32,7 @@ Install the required Python library (cx_Oracle):
 pip3 install -r requirements.txt
 ```
 
-Step 3: Run orashell.py
+#### Step 3: Run orashell.py
 
 ```bash
 python3 orashell.py

@@ -13,11 +13,22 @@ host = input("[?] Enter host (e.g., 10.129.205.19): ").strip()
 port = input("[?] Enter port (e.g., 1521): ").strip()
 service_name = input("[?] Enter service name (e.g., XE): ").strip()
 
+# Ask the user whether to connect as SYSDBA
+connect_mode = 0
+sysdba_choice = input("[?] Connect as SYSDBA? (Y/n): ").strip().lower()
+if sysdba_choice == 'y' or sysdba_choice == '':
+    connect_mode = Database.SYSDBA
+
 try:
     # Create DSN with provided information
     dsn = Database.makedsn(host, port, service_name=service_name)
-    conn = Database.connect(user=user, password=password, dsn=dsn, encoding='UTF-8')
-    print(f"[✔] Connection successful! Connected to {host}:{port}/{service_name}")
+    # Attempt to connect using the selected mode
+    conn = Database.connect(user=user, password=password, dsn=dsn, mode=connect_mode, encoding='UTF-8')
+    
+    if connect_mode == Database.SYSDBA:
+        print(f"[✔] Connection successful! Connected to {host}:{port}/{service_name} as SYSDBA")
+    else:
+        print(f"[✔] Connection successful! Connected to {host}:{port}/{service_name}")
     
     # Initialize cursor
     cursor = conn.cursor()

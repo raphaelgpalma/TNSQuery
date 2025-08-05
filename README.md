@@ -31,3 +31,9 @@ Install the required Python library (cx_Oracle):
 ```bash
 pip3 install -r requirements.txt
 ```
+
+Step 3: Run orashell.py
+
+```bash
+python3 orashell.py
+```

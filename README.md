@@ -20,7 +20,7 @@ TNSQuery is a lightweight Python-based command-line tool designed for interactin
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/TNSQuery.git](https://github.com/YOUR_USERNAME/TNSQuery.git)
+git clone [https://github.com/raphaelgpalma/TNSQuery.git](https://github.com/raphaelgpalma/TNSQuery.git)
 cd TNSQuery
 ```
 

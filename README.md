@@ -1,6 +1,6 @@
-# TNSQuery
+# OraShell
 
-TNSQuery is a lightweight Python-based command-line tool designed for interacting with Oracle databases via TNS (Transparent Network Substrate) without requiring the installation of `sqlplus`. It provides an interactive SQL shell, making it ideal for pentesters and database administrators working in environments like Hack The Box or other controlled setups.
+OraShell is a lightweight Python-based command-line tool designed for interacting with Oracle databases via TNS (Transparent Network Substrate) without requiring the installation of `sqlplus`. It provides an interactive SQL shell, making it ideal for pentesters and database administrators working in environments like Hack The Box or other controlled setups.
 
 ## Features
 - Interactive SQL shell for Oracle databases.
@@ -20,8 +20,8 @@ TNSQuery is a lightweight Python-based command-line tool designed for interactin
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/raphaelgpalma/TNSQuery.git
-cd TNSQuery
+git clone https://github.com/raphaelgpalma/OraShell.git
+cd OraShell
 ```
 
 Step 2: Install Python Dependencies

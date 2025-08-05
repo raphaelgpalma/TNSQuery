@@ -2,7 +2,7 @@ import cx_Oracle as Database
 
 def display_banner():
     print("="*80)
-    print("TNSQuery: Oracle Database Interactive Shell")
+    print("OraShell: Oracle Database Interactive Shell")
     print("Type 'exit' to quit, 'tables' to list tables, or any SQL query")
     print("="*80)
 

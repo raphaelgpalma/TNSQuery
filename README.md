@@ -1,6 +1,6 @@
 # OraShell
 
-OraShell is a Python-based command-line tool designed for interacting with Oracle databases via TNS (Transparent Network Substrate) without requiring the installation of `sqlplus`. It provides an interactive SQL shell, making it ideal for pentesters and database administrators working in environments like Hack The Box or other controlled setups.
+OraShell is a Python-based command-line tool designed for interacting with Oracle databases via TNS (Transparent Network Substrate) without requiring the installation of `sqlplus`. It provides an interactive SQL shell.
 
 ## Features
 - Interactive SQL shell for Oracle databases.
